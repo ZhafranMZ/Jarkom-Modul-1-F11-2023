@@ -83,6 +83,7 @@ Jika kita decode dengan base64, maka kita akan dapat password â€œ5implePas5wordâ
 Jawaban : 5implePas5word
 
 ### Nomor 6
+Yang kami tangkap adalah SUBSTITUSI SOURCE ADDRESS 7812 1521. Setelah mencari packet nomor 7812 dan 1521 kami masih belum memahami maksud dari soal. Apakah kita harus mengubah srcIP dari packet 7812 yang awalnya 50 menjadi srcIP dari packet 1521 yaitu 62056. Dan kalaupun iya lalu bagaimana cara mengubahnya? Karena wireshark hanya bisa nangkap saja bukan mengubah.
 ### Nomor 7
 Jawaban : Gunakan filter ``ip.dst == 184.87.193.88`` untuk mencari paket yang menuju IP 184.87.193.88.
 ![SSNo7](https://github.com/ZhafranMZ/Jarkom-Modul-1-F11-2023/assets/114043452/632e9b19-3010-4178-84b6-76ca988688e2)
